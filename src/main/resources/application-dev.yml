@@ -1,0 +1,17 @@
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+logging:
+  level:
+    com.jhostyn.petlogilink: DEBUG
+    org.springframework.web: INFO
+
+petlogilink:
+  integration:
+    amazon-api-url: "http://localhost:8080/mock/amazon"
+    miravia-api-url: "http://localhost:8080/mock/miravia"
+  ai:
+    openai-api-key: "sk-mock-key-for-local-dev-12345"
+    mock-enabled: true

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: PetLogiLink-API
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+petlogilink:
+  integration:
+    amazon-api-url: ${AMAZON_API_URL:https://api.amazon.com/default}
+    miravia-api-url: ${MIRAVIA_API_URL:https://api.miravia.es/default}
+  sync:
+    cron-expression: "0 */5 * * * *" # Every 5 minutes
