@@ -1,5 +1,7 @@
 # PetLogiLink — Plataforma Fullstack de Automatización Logística
 
+*🇬🇧 [Read in English](./README_EN.md)*
+
 ![Java](https://img.shields.io/badge/Java-17-orange.svg)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-brightgreen.svg)
 ![Angular](https://img.shields.io/badge/Angular-18-DD0031.svg)
